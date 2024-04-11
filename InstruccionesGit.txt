@@ -1,0 +1,28 @@
+0. git clone [URL_DEL_REPOSITORIO_A_CLONAR]
+
+git clone https://github.com/zulykdev/brixton_online_store.git
+
+--- 3 opciones basicas
+1. git status (ver estado actual del repositorio)
+
+
+2. git add [NOMBRE_ARCHIVO] (agregar al seguimiento)
+git add . (agregar TODOS los modificados/nuevos al seguimiento)
+ ej: 
+ git add ExcelHans.xlsx
+ git add . 
+
+3. git commit -m "MENSAJE DEL CAMBIO" (Confirmar el cambio en el repositorio)
+ ej:
+ git commit -m "cambio de hans"
+
+---- Dos Opciones para subir cambios al servidor de GIT ( [x] github | gitlab | ... bitbucket -opciones-)
+(Obligatorio) 4.1 Traer cambios del repositorio de origen (del repositorio de zulyk) 
+ git pull 
+
+(Obligatorio) 4.2 Subir cambios al repositorio de origen (al repositorio de zulyk)
+ git push
+
+
+
+rm ~/.git-credentials
