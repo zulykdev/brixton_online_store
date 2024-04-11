@@ -16,6 +16,7 @@ public class Prestamo {
     private LocalDate fechaDevolucion;
     private Usuario usuarioOperacion;
     private Usuario bibliotecario;
+    private String miSegundoCambio;
 
     private List<Libro> libros;
 
@@ -33,12 +34,5 @@ public class Prestamo {
 
     public void banearUsuario() {
 
-    }
-
-    asdfasdfdsaf
-    afdfadsf
-
-    public asdfasdfdsaf getAfdfadsf() {
-        adfadf
     }
 }
